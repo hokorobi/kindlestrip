@@ -1,25 +1,15 @@
-===============================
 kindlestrip
 ===============================
 
 A pip-installable conversion of Paul Durrant's kindlestrip library to strip the penultimate record from a Mobipocket file. (http://www.mobileread.com/forums/showthread.php?t=96903)
 
+This is a mereged version working for Python3.x from https://github.com/cxumol/kindlestrip
 
 Usage
 -----
 
 To install:
-
-.. code-block:: bash
-
-    $ pip install kindlestrip
+    $ pip install git+https://github.com/timotheuslin/kindlestrip@v1.36.1 --user
 
 To use:
-
-.. code-block:: bash
-
     $ kindlestrip input.mobi output.mobi
-
-    $ du -sh *
-    268K    input.mobi
-    200K    output.mobi
