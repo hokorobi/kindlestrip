@@ -9,7 +9,7 @@ Usage
 -----
 
 To install:
-    $ pip install git+https://github.com/timotheuslin/kindlestrip@v1.36.1 --user
+    $ pip install git+https://github.com/timotheuslin/kindlestrip --user --upgrade
 
 To use:
     $ kindlestrip input.mobi output.mobi
